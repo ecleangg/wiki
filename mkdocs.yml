@@ -9,6 +9,7 @@ copyright: 'Copyright © 2022 eclean.gg. All rights reserved.'
 # Theme options
 theme:
   name: 'material'
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tracking
