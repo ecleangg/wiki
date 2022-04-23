@@ -16,8 +16,8 @@ theme:
     - search.highlight
     - search.share
 
-#extra_javascript:
-#  - javascript/consent-clarity.js
+extra_javascript:
+  - javascript/consent-clarity.js
 
 plugins:
   - search
@@ -40,9 +40,9 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-    #cookies:
-      #analytics: Google Analytics
-      #clarity: Microsoft Clarity
+    cookies:
+      analytics: Google Analytics
+      clarity: Microsoft Clarity
 
   analytics:
     provider: google
@@ -60,9 +60,8 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
-    #provider: clarity
-    #property: clarity
-    #provider: plausible
+    provider: clarity
+    provider: plausible
   generator: false
 
 docs_dir: docs/
