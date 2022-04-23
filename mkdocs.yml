@@ -1,0 +1,59 @@
+site_name: eclean.gg Wiki
+site_url: 'https://wiki.eclean.gg'
+site_author: 'eclean.gg'
+repo_url: 'https://github.com/ecleangg/wiki'
+repo_name: 'ecleangg/wiki'
+copyright: 'Copyright © 2022 eclean.gg. All rights reserved.'
+
+docs_dir: docs/
+nav:
+  - 'Home': 'index.md'
+
+theme:
+  name: 'material'
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://eclean.gg/
+    - icon: fontawesome/brands/discord
+      link: https://discord.eclean.gg/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ecleangg
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/ecleangg/
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  analytics:
+    provider: google
+    property: G-L4YV2QXF67
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
+  generator: false
