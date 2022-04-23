@@ -41,31 +41,26 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
     cookies:
-      analytics: Google Analytics
+      #analytics: Google Analytics
       clarity: Microsoft Clarity
-
   analytics:
-    provider: google
-    property: G-L4YV2QXF67
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback!
-
-  analytics:
+    #provider: google
+    #property: G-L4YV2QXF67
+    #feedback:
+      #title: Was this page helpful?
+      #ratings:
+        #- icon: material/emoticon-happy-outline
+          #name: This page was helpful
+          #data: 1
+          #note: >-
+            #Thanks for your feedback!
+        #- icon: material/emoticon-sad-outline
+          #name: This page could be improved
+          #data: 0
+          #note: >- 
+            #Thanks for your feedback!
     provider: clarity
-  analytics:
-    provider: plausible
-
+    #provider: plausible
   generator: false
 
 docs_dir: docs/
