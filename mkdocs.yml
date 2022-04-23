@@ -64,6 +64,6 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
-    provider: microsoft
+    provider: clarity
     property: clarity
   generator: false
