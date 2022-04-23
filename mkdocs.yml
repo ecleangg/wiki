@@ -46,9 +46,9 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-    cookies:
-      analytics: Google Analytics
-      clarity: Microsoft Clarity
+    #cookies:
+      #analytics: Google Analytics
+      #clarity: Microsoft Clarity
 
   analytics:
     provider: google
