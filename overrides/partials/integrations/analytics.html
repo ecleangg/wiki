@@ -1,0 +1,19 @@
+<!-- Material for MkDocs: Default -->
+{% if config.extra.analytics %}
+  {% set provider = config.extra.analytics.provider %}
+{% endif %}
+{% if provider %}
+  {% include "partials/integrations/analytics/" ~ provider ~ ".html" %}
+{% endif %}
+
+<!-- Microsoft Clarity -->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "blm7s7en7q");
+</script>
+
+<!-- (self-hosted) Plausible -->
+<script defer data-domain="wiki.eclean.gg" src="https://insight.eclean.gg/js/script.js"></script>
