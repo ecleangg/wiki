@@ -48,7 +48,7 @@ extra:
       make our documentation better.
     cookies:
       analytics: Google Analytics
-      #clarity: Microsoft Clarity
+      clarity: Microsoft Clarity
 
   analytics:
     provider: google
