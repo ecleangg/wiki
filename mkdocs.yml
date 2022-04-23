@@ -44,7 +44,8 @@ extra:
       analytics: Google Analytics
       clarity: Microsoft Clarity
   analytics:
-    provider: eclean
+    provider: google
+    property: G-L4YV2QXF67
     feedback:
       title: Was this page helpful?
       ratings:
