@@ -56,4 +56,6 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
+    provider: clarity
+    property: clarity
   generator: false
