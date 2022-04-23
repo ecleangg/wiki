@@ -20,7 +20,7 @@ theme:
 
 # Extra JavaScript
 extra_javascript:
-  - javascript/consent-clarity.js
+  - javascripts/consent-clarity.js
 
 # Plugins
 plugins:
