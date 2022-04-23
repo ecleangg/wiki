@@ -60,7 +60,7 @@ extra:
           #note: >- 
             #Thanks for your feedback!
     provider: clarity
-    #provider: plausible
+    provider: plausible
   generator: false
 
 docs_dir: docs/
