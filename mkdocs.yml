@@ -1,13 +1,9 @@
 site_name: eclean.gg Wiki
-site_url: 'https://wiki.eclean.gg'
+site_url: 'wiki.eclean.gg'
 site_author: 'eclean.gg'
 repo_url: 'https://github.com/ecleangg/wiki'
 repo_name: 'ecleangg/wiki'
 copyright: 'Copyright © 2022 eclean.gg. All rights reserved.'
-
-docs_dir: docs/
-nav:
-  - 'Home': 'index.md'
 
 theme:
   name: 'material'
@@ -20,8 +16,8 @@ theme:
     - search.highlight
     - search.share
 
-extra_javascript:
-  - javascript/consent-clarity.js
+#extra_javascript:
+#  - javascript/consent-clarity.js
 
 plugins:
   - search
@@ -44,8 +40,8 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-    cookies:
-      analytics: Google Analytics
+    #cookies:
+      #analytics: Google Analytics
       #clarity: Microsoft Clarity
 
   analytics:
@@ -69,3 +65,7 @@ extra:
     provider: plausible
     property: plausible
   generator: false
+
+docs_dir: docs/
+nav:
+  - 'Home': 'index.md'
