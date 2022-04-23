@@ -1,3 +1,4 @@
+# Site options
 site_name: eclean.gg Wiki
 site_url: 'https://wiki.eclean.gg/'
 site_author: 'eclean.gg'
@@ -5,6 +6,7 @@ repo_url: 'https://github.com/ecleangg/wiki'
 repo_name: 'ecleangg/wiki'
 copyright: 'Copyright © 2022 eclean.gg. All rights reserved.'
 
+# Theme options
 theme:
   name: 'material'
   custom_dir: overrides
@@ -16,13 +18,16 @@ theme:
     - search.highlight
     - search.share
 
+# Extra JavaScript
 extra_javascript:
   - javascript/consent-clarity.js
 
+# Plugins
 plugins:
   - search
   - social
 
+# Extra properties
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -33,6 +38,7 @@ extra:
       link: https://twitter.com/ecleangg
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/ecleangg/
+
   consent:
     title: Cookie consent
     description: >- 
@@ -43,6 +49,7 @@ extra:
     cookies:
       analytics: Google Analytics
       clarity: Microsoft Clarity
+
   analytics:
     provider: google
     property: G-L4YV2QXF67
@@ -59,8 +66,10 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
+
   generator: false
 
+# Pages
 docs_dir: docs/
 nav:
   - 'Home': 'index.md'
