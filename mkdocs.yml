@@ -21,7 +21,7 @@ theme:
     - search.share
 
 extra_javascript:
-  - javascripts/consent.js
+  - javascripts/consent-clarity.js
 
 plugins:
   - search
