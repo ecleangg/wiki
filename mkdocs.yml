@@ -66,4 +66,6 @@ extra:
             Thanks for your feedback!
     provider: clarity
     property: clarity
+    provider: plausible
+    property: plausible
   generator: false
