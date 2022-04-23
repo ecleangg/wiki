@@ -41,7 +41,7 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
     cookies:
-      #analytics: Google Analytics
+      analytics: Google Analytics
       clarity: Microsoft Clarity
   analytics:
     #provider: google
