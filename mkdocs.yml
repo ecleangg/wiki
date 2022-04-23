@@ -60,10 +60,9 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback!
-    #provider: clarity
-    #property: clarity
+    provider: clarity
+    property: clarity
     provider: plausible
-    property: plausible
   generator: false
 
 docs_dir: docs/
